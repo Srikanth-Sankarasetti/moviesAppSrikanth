@@ -1,0 +1,22 @@
+.contact-container {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icons {
+  color: #ffffff;
+  display: flex;
+  gap: 14px;
+}
+
+.contact-head {
+  font-family: 'HK Grotesk';
+  color: #ffffff;
+  align-items: center;
+  font-size: 18px;
+}

@@ -1,0 +1,101 @@
+.account-main-container {
+  background-color: #131313;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.account-container {
+  width: 100%;
+  background-color: #ffffff;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-details {
+  width: 80%;
+}
+.account-head {
+  color: #131313;
+  font-family: 'Bree Serif';
+  font-size: 30px;
+}
+
+.membership-container {
+  display: flex;
+  gap: 20px;
+}
+
+.membership-para {
+  color: #94a3b8;
+}
+
+.gmail-para {
+  color: #1e293b;
+}
+.password-para {
+  color: #64748b;
+}
+
+.plan-details-container {
+  display: flex;
+  gap: 30px;
+}
+
+.premium-container {
+  display: flex;
+  gap: 10px;
+}
+
+.ultra-para {
+  border: 1px solid #1e293b;
+  padding: 0px 5px;
+  color: #1e293b;
+}
+
+.logout-button {
+  align-self: center;
+  background-color: #e50914;
+  color: #ffffff;
+  height: 35px;
+  width: 90px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 567px) {
+  .account-head {
+    font-size: 16px;
+  }
+  .logout-button {
+    width: 60px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .account-container {
+    min-height: 40vh;
+  }
+
+  .membership-para {
+    font-size: 10px;
+  }
+  .account-details {
+    width: 95%;
+  }
+  .gmail-para {
+    font-size: 10px;
+  }
+  .password-para {
+    font-size: 10px;
+  }
+  .ultra-para {
+    font-size: 10px;
+  }
+}

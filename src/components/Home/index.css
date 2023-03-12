@@ -1,0 +1,46 @@
+.trending-and-container {
+  background-color: #131313;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-container {
+  padding-left: 5%;
+  width: 100%;
+}
+
+.trending-head {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.trending-image {
+  margin: 0px 10px;
+  height: 200px;
+  width: 95%;
+  border-radius: 8px;
+}
+
+.trending-ul {
+  width: 94%;
+}
+
+.trending-loader {
+  width: 94%;
+  background-color: #000000;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 567px) {
+  .trending-image {
+    height: 130px;
+  }
+}

@@ -1,0 +1,78 @@
+.main-poster-head {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+}
+
+.main-poster-overview {
+  color: #ffffff;
+  font-weight: 'HK Grotesk';
+}
+
+.poster-title-container {
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 567px) {
+  .poster-title-container {
+    width: 100%;
+    padding-right: 10px;
+  }
+  .main-poster-overview {
+    font-size: 15px;
+  }
+  .main-poster-head {
+    font-size: 20px;
+  }
+}
+
+.play-button {
+  width: 95px;
+  height: 40px;
+  background-color: #ffffff;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.loader-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader-container {
+  background-color: #000000;
+  border-radius: 6px;
+  width: 90%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.error-para {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'HK Grotesk';
+  align-items: center;
+}
+
+.try-again-button {
+  background-color: #ffffff;
+  color: #171f46;
+  font-family: 'HK Grotesk';
+  width: 110px;
+  height: 30px;
+  border-radius: 4px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
